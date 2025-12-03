@@ -10,8 +10,6 @@ on:
       - 'DistroLauncher-Appx/**'
       - '.github/workflows/detect-update-releases.yaml'
       - 'wsl-builder/**'
-  schedule:
-    - cron: '42 0 * * 6'
 
 env:
   goversion: '1.21.4'
